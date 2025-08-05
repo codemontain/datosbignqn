@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    // Get the current path
+    var path = window.location.pathname;
+    // Get the base path from the homepage in package.json or vite.config.js
+    // In this case, it's /geodataelecnort/
+    var base = '/geodataelecnort/';
+    // Construct the new URL
+    var newUrl = base + window.location.search + window.location.hash;
+    // Redirect to the new URL
+    window.location.replace(newUrl);
+  </script>
+</head>
+<body>
+  <p>If you are not redirected automatically, follow this <a href="/geodataelecnort/">link</a>.</p>
+</body>
+</html>
