@@ -15,7 +15,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
-    <BrowserRouter basename="/geodataelecnort/">
+    <BrowserRouter basename="/datosbignqn/">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
